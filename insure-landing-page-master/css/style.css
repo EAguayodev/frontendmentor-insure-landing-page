@@ -4,6 +4,7 @@
 
 * {
     box-sizing: border-box;
+    outline: 2px solid red;
 }
 
 :root {
@@ -384,7 +385,7 @@ nav .hamburger.show .close {
     }
 
     .intro {
-        margin-left: -20px;
+        width: 395px;
         margin-bottom: -10px;
         max-width: calc(100%) + 40px;
     }
