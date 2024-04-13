@@ -342,6 +342,10 @@ nav .hamburger.show .close {
     display: block;
 }
 
+.hamburger.show .open::after{
+    transform: rotate(-90deg);
+}
+
     nav .image-wrapper {
         text-align: left;
     }
